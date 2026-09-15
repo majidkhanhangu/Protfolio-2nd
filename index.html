@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdul Majid</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================
+     NAVIGATION
+     Customize: change "Alex Rivera" to your name,
+     update the resume link's href.
+     ============================================ -->
+<header class="navbar" id="top">
+    <div class="container navbar-inner">
+        <a href="#top" class="logo">Abdul Majid</a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#top">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="#projects" class="btn btn-outline" download>Explore Projects</a>
+        </div>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<!-- ============================================
+     HERO
+     Customize: your name, tagline, intro paragraph,
+     and the code snippet in the mockup window.
+     ============================================ -->
+<section class="hero">
+    <div class="container hero-grid">
+        <div class="hero-content">
+            <h1>Hi, I'm Abdul Majid —<br>Web Developer</h1>
+            <p class="hero-lead">
+                I build fast, accessible, and user-friendly websites — from pixel-precise
+                interfaces to the APIs that power them. I care about clean code as much
+                as clean design.
+            </p>
+            <div class="hero-actions">
+                <a href="images/Abdul Majid new resume.pdf" class="btn btn-gradient">Download Resume</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+            <div class="hero-social">
+                <a href="https://github.com/majidkhanhangu" target="_blank" rel="noopener" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.02 3.26 9.28 7.78 10.79.57.1.78-.25.78-.55v-2.14c-3.17.69-3.83-1.38-3.83-1.38-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.8 10.8 0 0 1 5.72 0c2.18-1.48 3.13-1.17 3.13-1.17.63 1.57.24 2.73.12 3.02.73.8 1.17 1.82 1.17 3.06 0 4.37-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14v3.17c0 .3.2.66.79.55A10.53 10.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5Z"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/abdul-majid-664454298/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+                </a>
+                <a href="mailto:alex.rivera@example.com" aria-label="Email">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3 6 9 7 9-7"/></svg>
+                </a>
+            </div>
+        </div>
+
+        <!-- Signature hero device: a stylized code window rather than a generic gradient blob -->
+        <div class="code-window" aria-hidden="true">
+            <div class="code-window-bar">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <span class="code-window-title">Web developer.js</span>
+            </div>
+            <pre class="code-window-body"><code><span class="c-kw">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">"Abdul Majid"</span>,
+  <span class="c-prop">role</span>: <span class="c-str">"Web Developer"</span>,
+  <span class="c-prop">stack</span>: [<span class="c-str">"HTML5"</span>, <span class="c-str">"CSS3"</span>, <span class="c-str">"JavaScript"</span>, <span class="c-str">"PHP"</span>],
+  <span class="c-prop">focus</span>: <span class="c-str">"fast, Web design"</span>,
+  <span class="c-prop">available</span>: <span class="c-bool">true</span>
+};<span class="cursor">&nbsp;</span></code></pre>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     SKILLS & TECHNOLOGIES
+     Customize: add/remove skills from each list.
+     ============================================ -->
+<section class="section" id="skills">
+    <div class="container">
+        <div class="section-head">
+            <h2>Skills &amp; Technologies</h2>
+            <p>The tools I reach for most, grouped by where they live in the stack.</p>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-group skill-frontend">
+                <h3>Frontend</h3>
+                <ul class="skill-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                </ul>
+            </div>
+
+            <div class="skill-group skill-backend">
+                <h3>Backend</h3>
+                <ul class="skill-list">
+                    <li>PHP</li>
+                    <li>MySQL / Databases</li>
+                    <li>REST API Integration</li>
+                </ul>
+            </div>
+
+            <div class="skill-group skill-tools">
+                <h3>Tools</h3>
+                <ul class="skill-list">
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     PROJECTS
+     Customize: replace project details, image,
+     tags, and links for each card.
+     ============================================ -->
+<section class="section section-alt" id="projects">
+    <div class="container">
+        <div class="section-head">
+            <h2>Projects</h2>
+            <p>A selection of things I've built recently — replace with your own work.</p>
+        </div>
+
+        <div class="projects-grid">
+
+            <article class="project-card">
+                <div class="project-thumb thumb-1">
+                <img src="images/project1.PNG" alt="">
+                </div>
+                <div class="project-body">
+                    <h3>E-Commerce Watch-store</h3>
+                    <p>An admin panel for managing products, orders, and customers, built with a focus on collection and production.</p>
+                    <div class="tag-row">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://watch-store-e-commerce.vercel.app/" class="btn btn-sm btn-gradient">Live Demo</a>
+                        <a href="https://github.com/majidkhanhangu/Watch-store-E-commerce" class="btn btn-sm btn-outline">View Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-thumb thumb-2">
+                <img src="images/project2.PNG" alt="">
+                </div>
+                <div class="project-body">
+                    <h3>Weather Forecast App</h3>
+                    <p>A responsive life style cloth store to changing your styling.</p>
+                    <div class="tag-row">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                         <span class="tag">PHP</span>
+                          <span class="tag">MySQL</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://shopmax-ecommerce-rho.vercel.app/" class="btn btn-sm btn-gradient">Live Demo</a>
+                        <a href="https://github.com/majidkhanhangu/shopmax-ecommerce" class="btn btn-sm btn-outline">View Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-thumb thumb-3">
+                <img src="images/project3.PNG" alt="">
+                </div>
+                <div class="project-body">
+                    <h3>Dine market Industrial</h3>
+                    <p>A community platform where users post, rate, and save products, with search and category products.</p>
+                    <div class="tag-row">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">React.js</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://dine-market-e-commerce-store.vercel.app/" class="btn btn-sm btn-gradient">Live Demo</a>
+                        <a href="https://github.com/majidkhanhangu/Dine-Market-E-commerce-Store" class="btn btn-sm btn-outline">View Code</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     ABOUT ME
+     Customize: rewrite the bio, update the stats.
+     ============================================ -->
+<section class="section" id="about">
+    <div class="container about-grid">
+        <div class="about-avatar">
+            <div class="avatar-ring"><img src="images/WhatsApp Image 2026-09-15 at 11.54.02 AM.jpeg" alt=""></div>
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+               I started learning web development by looking at how
+                other websites were built, then trying to build
+                 similar things myself. That curiosity turned 
+                 into a habit — I like building things that are
+                  fast, easy to use, and work well even with a
+                   lot of visitors.
+            </p>
+            <p>
+                 fixing problems that have a clear
+                 before-and-after: a slow page made fast,
+                  a messy form made simple, a design that
+                   finally matches the code behind it.
+                    Writing clean code matters to me because
+                     it means anyone — including me, later — 
+                     can understand it and keep working on it easily.
+            </p>
+            <div class="about-stats">
+                <div class="stat">
+                    <span class="stat-num">1.5+</span>
+                    <span class="stat-label">Years Building</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">12+</span>
+                    <span class="stat-label">Projects Shipped</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">8</span>
+                    <span class="stat-label">Technologies</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     CONTACT
+     Customize: update email/location, and wire
+     the form up to your backend or a service like
+     Formspree / EmailJS (see script.js comment).
+     ============================================ -->
+<section class="section section-alt" id="contact">
+    <div class="container">
+        <div class="section-head">
+            <h2>Contact</h2>
+            <p>Have a project in mind, or just want to say hi? Send a message.</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3 6 9 7 9-7"/></svg>
+                    </div>
+                    <div>
+                        <div class="info-label">Email</div>
+                        <a href="mailto:alex.rivera@example.com" class="info-value">a.majid5560@gmail.com</a>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 10c0 5.5-8 12-8 12s-8-6.5-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div>
+                        <div class="info-label">Location</div>
+                        <div class="info-value">Remote — Pakistan 03165435319</div>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.02 3.26 9.28 7.78 10.79.57.1.78-.25.78-.55v-2.14c-3.17.69-3.83-1.38-3.83-1.38-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.17a10.8 10.8 0 0 1 5.72 0c2.18-1.48 3.13-1.17 3.13-1.17.63 1.57.24 2.73.12 3.02.73.8 1.17 1.82 1.17 3.06 0 4.37-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14v3.17c0 .3.2.66.79.55A10.53 10.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5Z"/></svg>
+                    </div>
+                    <div>
+                        <div class="info-label">GitHub / LinkedIn</div>
+                        <a href="https://github.com/" target="_blank" rel="noopener" class="info-value">https://github.com/majidkhanhangu</a>
+                         <a href="https://www.linkedin.com/in/abdul-majid-664454298/" target="_blank" rel="noopener" class="info-value">https://www.linkedin.com/in/abdul-majid-664454298/</a>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm" novalidate>
+                <div id="formMsg" class="form-msg"></div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-gradient btn-block">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     FOOTER
+     ============================================ -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <span>&copy; <span id="year"></span> Alex Rivera. All rights reserved.</span>
+        <nav class="footer-links">
+            <a href="#top">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
